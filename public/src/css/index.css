@@ -1,8 +1,7 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
+    font-family: 'Asap', 'Droid Sans', Tahoma, Arial, sans-serif;
+    font-size: 12.5px;
+    line-height: 1.54;
+    color: rgba(27, 34, 44, 0.72);
+    background-color: #f0f1f2;
 }

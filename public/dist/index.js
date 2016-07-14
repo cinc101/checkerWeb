@@ -77,9 +77,7 @@
 
 	var test = function test() {};
 
-	test.prototype.dosomething = function () {
-		alert(1);
-	};
+	test.prototype.dosomething = function () {};
 
 	module.exports = new test();
 

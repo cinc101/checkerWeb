@@ -6,7 +6,6 @@
 let test = function() {}
 
 test.prototype.dosomething = function() {
-    alert(1);
 };
 
 module.exports = new test();
