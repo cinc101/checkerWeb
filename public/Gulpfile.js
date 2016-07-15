@@ -3,7 +3,6 @@
  */
 'use strict';
 
-const path = require("path");
 const gulp = require('gulp');
 const babel = require('gulp-babel');
 const webpack = require('gulp-webpack');
@@ -23,7 +22,7 @@ gulp.task('clean', (cb) => {
 //合并压缩css
 gulp.task('minify-css', () => {
     //index.css
-    gulp.src(['src/css/index.css', 'src/css/nav.css'])
+    gulp.src(['src/css/base.css', 'src/css/nav.css', 'src/css/index.css'])
         .pipe(concat('index.css'))
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(gulp.dest('dist'));
